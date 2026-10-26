@@ -1,0 +1,23 @@
+# Local state and credentials
+data/
+.venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+# Generated builds and downloaded runtimes
+*.exe
+*.dll
+*.zip
+*.cab
+*.spec
+build/
+dist/
+engine/
+WebView2Runtime/
+work/
+portable/
+*.log
+.vscode/
+.idea/
